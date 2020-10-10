@@ -1,0 +1,69 @@
+.cadre{
+	border: 1px solid purple;
+	margin-top: 50px;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, #666699,#b366ff);
+	box-shadow: 12px 12px 10px lightpink;
+}
+.u{
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top:10px;
+	text-shadow: 5px 5px 5px black;
+	color: white;
+	font-size: 35px;
+}
+.ForP{
+	color: darkblue;
+	font-style: italic;
+	padding-left: 150px;
+	padding-top: 10px;
+}
+.log{
+	color: white;
+}
+.art{
+	color: #ffffcc;
+}
+.m{
+	text-align: left;
+	margin-top: 10px;
+	color: orange;
+	margin-left: 10px;
+}
+.n{
+	color: darkblue;
+	list-style-type: circle;
+}
+.I{
+	font-style: italic;
+	font-size: 10px;
+}
+.bout{
+	margin-top: 10px;
+}
+.rememb{
+	font-size:12px; 
+	margin-left: 10px;
+}
+.H1{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+}
+.lab{
+	text-align: center;
+	margin-top: 20px;
+}
+.fom{
+	background-color: grey; 
+}
+.cadrE{
+	border: 1px solid purple;
+	margin-top: 50px;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, red,pink);
+	box-shadow: 12px 12px 10px lightpink;
+
+}

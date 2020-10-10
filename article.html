@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestion des articles</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<script type="text/javascript" src="css/bootstrap.min.js"></script>
+	<script type="text/javascript" src="css/jquery.min.js"></script>
+	<script type="text/javascript" src="css/popper.min.js"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark art"><h1 class="mx-auto">Gestion des articles</h1>
+		 <span class="btn btn-success"><a href="login.html" class="text-decoration-none log">LogOut</a></span>
+		 <span class="btn btn-danger"><a href="AdminLogin.html" class="text-decoration-none log">Log in as administrator</a></span>
+	</nav>
+	<div class="row">	
+		<div class="col-md-3">
+			<h5 class="m fa fa-buysellads">Gestion de l’approvisionnement </h5>
+			<ul>
+				<li><a href="article.html" class="text-decoration-none n fa">Insertion des achats</a></li>
+				<li><a href="listAchat.html" class="text-decoration-none n fa">Liste des achats</a></li>
+			</ul>
+			<h5 class="m fa fa-database">Gestion du stock </h5>
+			<ul>
+				<li><a href="listArticle.html" class="text-decoration-none n fa">Liste des articles</a></li>
+			</ul>
+			<h5 class="m fa fa-money fa-dollar">Gestion de la caisse</h5>
+			<ul>
+				<li><a href="caisse.html" class="text-decoration-none n fa">Liste des ventes</a></li>
+			</ul>
+			<h5 class="m fa fa-balance-scale">Gestion des charges</h5>
+			<ul>
+				<li><a href="charge.html" class="text-decoration-none n fa">Insertion des charges</a></li>
+				<li><a href="listCharge.html" class="text-decoration-none n fa">Liste des charges</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-9">
+			<div class="row">
+				<div class="col-md-2 fom"></div>
+					<div class="col-md-8 fom">
+						<h3 class="H1">Formulaire d’insertion des achats</h3>
+						<form class="lab">
+							<label>Produit</label><br>
+								<input type="text" name="" placeholder="Entrer le reference du produit...." class=" I form-control" ><br>
+							<label>Nom du produit</label> <br>
+								<input type="text" name="" placeholder="Entrer le nom du produit...." class="I form-control" > <br>
+							<label>Prix</label><br>
+								<input type="number" name="" placeholder="Entrer le prix du produit...." class="I form-control" ><br>
+							<label>Quantité</label><br>
+								<input type="number" name="" placeholder="Entrer la quanité du produit à commander...." class="I form-control" ><br>
+							<label>Date</label><br>
+								<input type="date" name="" placeholder="Entrer la quanité du produit à commander...." class="I form-control" ><br>
+							<label class="form-check-label rememb"><br>
+			        			<input class="form-check-input" type="checkbox" name="remember"><span>Se souvenir de moi</span></label><br>
+							<button type="submit" class="btn btn-success bout">Soumettre</button>
+						</form>
+					</div>
+				<div class="col-md-2 fom"></div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+</body>
+</html>
